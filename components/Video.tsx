@@ -5,7 +5,9 @@ export default function VideoComponent() {
   return (
     <Layout
     video={
-        <video loop={true} autoPlay={true} style={{}}  >
+        <video loop={true} autoPlay={true} muted playsInline={true} style={{
+          width:"100%"
+        }}>
            <source src='/videos/sample.mp4' type='video/mp4'/>
         </video>
     }

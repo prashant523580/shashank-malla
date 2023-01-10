@@ -8,6 +8,8 @@ import SkillComponent from '../components/pages/Skill'
 import ResumeComponent from '../components/pages/Resume'
 // import PricingComponent from '../components/pages/Pricing'
 import VideoComponent from '../components/Video'
+import ContactComponent from '../components/pages/Contact'
+import Testimonial from '../components/pages/Testimonial'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -39,7 +41,10 @@ export default function Home() {
             <ServiceComponents />
             <VideoComponent/>
             <SkillComponent />
-            <ResumeComponent />
+            {/* <ResumeComponent /> */}
+            <VideoComponent/>
+            <Testimonial/>
+            <ContactComponent/>
           </main>
         </>
         )
