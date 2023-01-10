@@ -18,7 +18,7 @@ export default function HomeComponent() {
                     </Parallax>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-6/6">
-                    <Image src="/images/karnali.png" width={300} height={300} className='object-cover object-center rounded' alt="mockup" />
+                    <Image src="/images/karnali.png" width={300} loading="lazy" height={300} className='object-cover object-center rounded' alt="mockup" />
                 </div>
             </div>
             </Layout>
