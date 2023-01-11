@@ -7,7 +7,7 @@ export default function Testimonial() {
     bgImg={'/images/janakpur.jpg'}
     >
 
-    <section className="text-gray-400 body-font">
+    <div className="text-gray-400 body-font py-10 sm:py-10 lg:py-20" >
     <div className="sm:text-center text-center">
         <h2 data-aos="zoom-out" data-aos-duration="1500" className=" mt-2 text-3xl font-bold tracking-tight  uppercase text-gray-300 sm:text-4xl ">Testimonial</h2>
         {/* <p data-aos="zoom-in" data-aos-duration="1500" className="text-lg font-semibold leading-8 text-orange-600"> client Say<span className='text-4xl' style={{
@@ -25,7 +25,7 @@ export default function Testimonial() {
       <p className="text-gray-500">Senior Product Designer</p>
     </div>
   </div>
-</section>
+</div>
     </Layout>
   )
 }

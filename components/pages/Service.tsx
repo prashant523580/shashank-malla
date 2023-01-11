@@ -1,4 +1,5 @@
 import React from 'react'
+import { Parallax } from 'react-scroll-parallax'
 import Layout from '../Layout'
 
 export default function ServiceComponents() {
@@ -8,7 +9,8 @@ export default function ServiceComponents() {
     zIndex={"-4"}
     >
     
-  
+  <div className="container px-20 mx-auto py-10 sm:py-10 lg:py-20">
+
     <div className="text-center ">
       <h2 data-aos="zoom-in"  data-aos-delay="200" data-aos-duration="1000" className=" mt-2 text-3xl font-bold tracking-tight  uppercase text-gray-300 sm:text-4xl ">What I Do</h2>
       <p data-aos="fade-up"  data-aos-delay="300" data-aos-duration="1500" className="text-lg font-semibold leading-8 text-orange-600"> MY <span className='text-4xl' style={{
@@ -17,7 +19,7 @@ export default function ServiceComponents() {
       <p  data-aos="fade-up"  data-aos-delay="500" data-aos-duration="2000" className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-400">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
     </div>
 
-    <div className="mt-20 max-w-lg sm:mx-auto md:max-w-none">
+    <div className="mt-20  max-w-lg  sm:mx-auto md:max-w-none">
       <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
         <div  data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000" className=" relative flex md:text-left text-center md:items-start items-center  flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500 text-gray-300 sm:shrink-0">
@@ -44,7 +46,7 @@ export default function ServiceComponents() {
             <p className="mt-2 text-base leading-7 text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
           </div>
         </div>
-
+<Parallax translateY={[-20,20]}>
         <div  data-aos-delay="500" data-aos="fade-right" data-aos-duration="1200" className=" relative flex md:text-left text-center md:items-start items-center  flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500 text-gray-300 sm:shrink-0">
             {/* <!-- Heroicon name: outline/bolt --> */}
@@ -57,7 +59,9 @@ export default function ServiceComponents() {
             <p className="mt-2 text-base leading-7 text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
           </div>
         </div>
-
+        </Parallax>
+        
+<Parallax translateY={[-20,40]}>
         <div  data-aos-delay="500" data-aos="fade-up" data-aos-duration="1800" className=" relative flex md:text-left text-center md:items-start items-center  flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-orange-500 text-gray-300 sm:shrink-0">
             {/* <!-- Heroicon name: outline/device-phone-mobile --> */}
@@ -70,9 +74,11 @@ export default function ServiceComponents() {
             <p className="mt-2 text-base leading-7 text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
           </div>
         </div>
+        </Parallax>
       </div>
     </div>
 
+      </div>
 
     </Layout>
 

@@ -4,10 +4,11 @@ import { Parallax } from 'react-scroll-parallax';
 import Image from 'next/image';
 export default function HomeComponent() {
     return (
-        <Layout
-        bgImg={"/images/shashank.jfif"}
-        >
-            <div className="container mx-auto flex px-5  md:flex-row flex-col items-center">
+        // <Layout
+        // bgImg={"/images/shashank.jfif"}
+        // >
+        <>
+            <div className="container mx-auto overflow-hidden flex px-5 py-10 h-[100vh] md:flex-row flex-col items-center">
                 <div className="mr-auto  px-5  md:py-5 sm:py-5 place-self-center lg:col-span-8">
                     <Parallax translateY={[-100,100]}>
                     <h1 data-aos="zoom-in" data-aos-duration="1000" className="max-w-2xl my-6 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-gray-300">Shashank Malla</h1>
@@ -18,9 +19,23 @@ export default function HomeComponent() {
                     </Parallax>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-6/6">
-                    <Image src="/images/karnali.png" width={300} loading="lazy" height={300} className='object-cover object-center rounded' alt="mockup" />
+                    {/* <Image src="/images/karnali.png" width={300} loading="lazy" height={200} className='object-cover object-center rounded' alt="mockup" /> */}
                 </div>
             </div>
-            </Layout>
+            <video loop={true} autoPlay={true} muted playsInline={true} style={{
+          width:"100%",
+          backgroundAttachment:"fixed",
+          position:'fixed',
+          top:0,
+          left:0,
+          zIndex:"-31",
+          transform:"scale(1.1)"
+        }}
+      
+        >
+           <source src='/videos/sample.mp4' type='video/mp4'/>
+        </video>
+            {/* // </Layout> */}
+            </>
     )
 }

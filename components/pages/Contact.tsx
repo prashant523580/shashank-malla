@@ -7,10 +7,9 @@ export default function ContactComponent() {
     bgImg={'/images/shashank.jfif'}
     >
 
-    <section className="text-gray-300 body-font relative">
-  <div className="container px-5  mx-auto">
+  <div className="container px-5 text-gray-400  mx-auto sm:py-10 lg:py-20 py-10">
     <div className="flex flex-col text-center w-full mb-12">
-    <h2 data-aos="zoom-in" data-aos-duration="1000" className=" text-3xl font-bold tracking-tight  uppercase text-gray-300 sm:text-4xl ">Contact</h2>
+    <h2 data-aos="fade-up" data-aos-duration="1000" className=" text-3xl font-bold tracking-tight  uppercase text-gray-300 sm:text-4xl ">Contact</h2>
       <p data-aos="zoom-in" data-aos-duration="1000" className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -68,7 +67,6 @@ export default function ContactComponent() {
       </div>
     </div>
   </div>
-</section>
     </Layout>
   )
 }
