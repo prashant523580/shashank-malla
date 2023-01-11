@@ -7,7 +7,7 @@ export default function SkillComponent() {
     bgImg={"/images/AdobeIcons.png"}
     >
       
-  <div className="container px-20 py-10 sm:py-10 lg:py-20 mx-auto">
+  <div className="container px-10 py-10 sm:py-10 lg:py-20 mx-auto">
     <div className="text-center">
       <h2 data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500" className=" my-2 text-3xl font-bold tracking-tight text-gray-400 uppercase sm:text-4xl ">Professional Skills</h2>
       <p  data-aos-delay="500" data-aos="zoom-in" data-aos-duration="1500" className="text-lg font-semibold leading-8 text-orange-600 ">MY <span className='text-4xl' style={{

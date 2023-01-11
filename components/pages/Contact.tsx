@@ -33,7 +33,7 @@ export default function ContactComponent() {
           </div>
         </div>
         <div  data-aos="zoom-in" data-aos-duration="1000" className="p-2 w-full">
-          <button className="flex mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
+          <button className="flex mx-auto text-white font-bold bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Button</button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
           <a href="mailto:shashank@gmail.com" data-aos="zoom-in" data-aos-duration="1000" className="text-orange-500">example@email.com</a>

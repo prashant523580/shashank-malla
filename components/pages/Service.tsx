@@ -9,7 +9,7 @@ export default function ServiceComponents() {
     zIndex={"-4"}
     >
     
-  <div className="container px-20 mx-auto py-10 sm:py-10 lg:py-20">
+  <div className="container px-10 mx-auto py-10 sm:py-10 lg:py-20">
 
     <div className="text-center ">
       <h2 data-aos="zoom-in"  data-aos-delay="200" data-aos-duration="1000" className=" mt-2 text-3xl font-bold tracking-tight  uppercase text-gray-300 sm:text-4xl ">What I Do</h2>
