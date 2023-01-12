@@ -10,7 +10,7 @@ export default function HomeComponent() {
         <>
             <div
              style={{background:"rgba(0,0,0,0.2)"}}
-             className="container mx-auto flex h-auto lg:h-[100vh] py-2 lg:py-10   md:flex-row flex-col items-center">
+             className="container mx-auto flex h-auto lg:h-[100vh] md:h-[39vh] sm:h-[40vh] py-2 lg:py-10   md:flex-row flex-col items-center">
                 <div className="mr-auto  px-5  md:py-5 sm:py-5 place-self-center lg:col-span-8">
                     <Parallax translateY={[-30,50]}>
                     <h1  style={{
@@ -39,7 +39,6 @@ export default function HomeComponent() {
           top:0,
           left:0,
           zIndex:"-1",
-          transform:"scale(1.1)"
         }}
       
         >

@@ -16,10 +16,7 @@ export default function ServiceComponents() {
           <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500" className="text-lg font-semibold leading-8 text-orange-600"> MY <span className='text-4xl' style={{
             fontFamily: "'Moon Dance', cursive"
           }}>Services</span></p>
-          <p style={{
-            fontFamily: "'Moon Dance', serif",
-            // fontFamily:"'Tangerine', serif"
-          }} data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-400">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
+          <p  data-aos="fade-up" data-aos-delay="500" data-aos-duration="2000" className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-400">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>
         </div>
 
         <div className="mt-20  max-w-lg  sm:mx-auto md:max-w-none">
@@ -32,7 +29,7 @@ export default function ServiceComponents() {
                 </svg>
               </div>
               <div className="sm:min-w-0 sm:flex-1">
-                <p className="text-lg font-semibold leading-8 text-gray-300">Videography</p>
+                <p  className="text-lg font-semibold leading-8 text-gray-300">Videography</p>
                 <p className="mt-2 text-base leading-7 text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
               </div>
             </div>
