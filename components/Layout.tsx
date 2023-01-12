@@ -6,8 +6,8 @@ export default function Layout(props : any) {
 
     
     <section style={{
-      background:`url(${props.bgImg}) fixed no-repeat`,
-      backgroundSize:"100%"
+      background:`url(${props.bgImg}) fixed no-repeat `,
+      backgroundSize:"cover"
     }}>
      {
   //     props.bgImg &&
